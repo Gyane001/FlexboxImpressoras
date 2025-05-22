@@ -1,52 +1,53 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <script src="app.js" defer></script>
+    <title>Impressoras Bold</title>
 </head>
 
 <body>
+    <header class="rodape">
+        <div class="nav-esquerda">
+            <img src="./img/logo.png" alt="Logo" class="logo" />
 
-    <div class="rodape">
-        <div id="box-1" class="box">
-            <img src="./img/icon.png">
-            <input class="input" type="text">
+            <button class="nav-btn">Sobre</button>
+            <button class="nav-btn">Produtos</button>
         </div>
 
-        <h1 class="titulo">Impressoras BOLD</h1>
+        <h1 class="titulo">IMPRESSORAS BOLD</h1>
 
-        <div class="caixaDePesquisa"> </div>
-        <div class="box">Sobre</div>
-        <div class="box">Produtos</div>
-        <div class="box">Login</div>
-    </div>
-    <div id="conteudo" class="conteudo">
+        <div class="nav-direita">
+            <label class="pesquisar-label">Pesquisar:</label>
+            <input class="input" type="text" placeholder="Digite aqui" />
+            <div class="login">Login</div>
+        </div>
+    </header>
+
+    <main id="conteudo" class="conteudo">
         <h1 class="instalacao">Selecione a impressora que deseja instalar</h1>
 
         <div class="impressoras">
-            <div class="imagem"><img src="./img/impressora.png"></div>
+            <img src="./img/impressora.png" />
             <div class="nome">Imp 1</div>
             <button class="botao">Selecionar</button>
         </div>
+
         <div class="impressoras">
-            <div class="imagem"><img src="./img/impressora.png"></div>
+            <img src="./img/impressora.png" />
             <div class="nome">Imp 2</div>
             <button class="botao">Selecionar</button>
         </div>
 
         <div class="impressoras">
-            <div class="imagem"><img src="./img/impressora.png"></div>
+            <img src="./img/impressora.png" />
             <div class="nome">Imp 3</div>
             <button class="botao">Selecionar</button>
         </div>
-
-    </div>
+    </main>
 </body>
 
 </html>
