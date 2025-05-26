@@ -13,24 +13,22 @@
     <header class="rodape">
         <div class="nav-esquerda">
             <img src="./img/logo.png" alt="Logo" class="logo" />
-
-            <button class="nav-btn">Sobre</button>
-            <button class="nav-btn">Produtos</button>
+            <button class="nav-btn">Inicio</button>
+            <button class="nav-btn">Instale você mesmo</button>
         </div>
 
         <h1 class="titulo">IMPRESSORAS BOLD</h1>
 
         <div class="nav-direita">
             <label class="pesquisar-label">Pesquisar:</label>
-            <input class="input" type="text" placeholder="Digite aqui" />
-            <div class="login">Login</div>
+            <input id="barra-pesquisa" class="input" type="text" placeholder="Digite aqui" />
         </div>
     </header>
 
     <main id="conteudo" class="conteudo">
         <h1 class="instalacao">Selecione a impressora que deseja instalar</h1>
 
-
+        <!-- Exemplo de bloco de impressora -->
         <div class="impressoras">
             <img src="./img/impressora.png" />
             <div class="nome">IMP_FAT_01
@@ -82,23 +80,185 @@
 
         <div class="impressoras">
             <img src="./img/impressora.png" />
-            <div class="nome">IMP_PEC_01
+            <div class="nome">IMP_CHA_01
+                <br> Vendas Varejo Matriz</div>
+            <button class="botao">Selecionar</button>
+        </div>
+
+        <div class="impressoras">
+            <img src="./img/impressora.png" />
+            <div class="nome">IMP_PLAQ_01
                 <br> Plaquetas Matriz</div>
             <button class="botao">Selecionar</button>
         </div>
 
         <div class="impressoras">
             <img src="./img/impressora.png" />
-            <div class="nome">IMP_PEC_01
-                <br> Plaquetas Matriz</div>
+            <div class="nome">IMPREC01
+                <br> Recepção Matriz</div>
             <button class="botao">Selecionar</button>
         </div>
 
+        <div class="impressoras">
+            <img src="./img/impressora.png" />
+            <div class="nome">IMPRH01
+                <br> G&G Matriz</div>
+            <button class="botao">Selecionar</button>
+        </div>
 
+        <div class="impressoras">
+            <img src="./img/impressora.png" />
+            <div class="nome">MTZ_ALMOX_L1
+                <br> Almoxarifado Matriz</div>
+            <button class="botao">Selecionar</button>
+        </div>
 
+        <div class="impressoras">
+            <img src="./img/impressora.png" />
+            <div class="nome">DIAD - IMP_DIA_01
+                <br> ADM Diadema</div>
+            <button class="botao">Selecionar</button>
+        </div>
 
+        <div class="impressoras">
+            <img src="./img/impressora.png" />
+            <div class="nome">DIAD - IMP_DIA_02
+                <br> Expedição Diadema</div>
+            <button class="botao">Selecionar</button>
+        </div>
 
+        <div class="impressoras">
+            <img src="./img/impressora.png" />
+            <div class="nome">BH_LOG_01
+                <br> Logistica BH</div>
+            <button class="botao">Selecionar</button>
+        </div>
 
+        <div class="impressoras">
+            <img src="./img/impressora.png" />
+            <div class="nome">IMP_BH_ADM
+                <br> ADM BH</div>
+            <button class="botao">Selecionar</button>
+        </div>
+
+        <div class="impressoras">
+            <img src="./img/impressora.png" />
+            <div class="nome">CTBA - IMP_CTBA_01
+                <br> Logistica BH</div>
+            <button class="botao">Selecionar</button>
+        </div>
+
+        <div class="impressoras">
+            <img src="./img/impressora.png" />
+            <div class="nome">CTBA - IMP_CTBA_02
+                <br> Logistica BH</div>
+            <button class="botao">Selecionar</button>
+        </div>
+
+        <div class="impressoras">
+            <img src="./img/impressora.png" />
+            <div class="nome">IMP_SJRP_01
+                <br> ADM SJRP</div>
+            <button class="botao">Selecionar</button>
+        </div>
+
+        <div class="impressoras">
+            <img src="./img/impressora.png" />
+            <div class="nome">MAR_ADM_01
+                <br> ADM Maringa</div>
+            <button class="botao">Selecionar</button>
+        </div>
+
+        <div class="impressoras">
+            <img src="./img/impressora.png" />
+            <div class="nome">MAR_LOG_01
+                <br> Logistica Maringa</div>
+            <button class="botao">Selecionar</button>
+        </div>
+
+        <div class="impressoras">
+            <img src="./img/impressora.png" />
+            <div class="nome">GUA_LOG_02
+                <br> Logistica Guarulhos</div>
+            <button class="botao">Selecionar</button>
+        </div>
+
+        <div class="impressoras">
+            <img src="./img/impressora.png" />
+            <div class="nome">GUA_REC_01
+                <br> ADM Guarulhos</div>
+            <button class="botao">Selecionar</button>
+        </div>
+
+        <div class="impressoras">
+            <img src="./img/impressora.png" />
+            <div class="nome">IMP_CHAP_01
+                <br> ADM Chapecó</div>
+            <button class="botao">Selecionar</button>
+        </div>
+
+        <div class="impressoras">
+            <img src="./img/impressora.png" />
+            <div class="nome">IMP_CHAP_02
+                <br> Logistica Chapecó</div>
+            <button class="botao">Selecionar</button>
+        </div>
+
+        <div class="impressoras">
+            <img src="./img/impressora.png" />
+            <div class="nome">POA_EXP_12
+                <br> Expedição Porto Alegre</div>
+            <button class="botao">Selecionar</button>
+        </div>
+
+        <div class="impressoras">
+            <img src="./img/impressora.png" />
+            <div class="nome">GOI_ADM_01
+                <br> ADM Goiania</div>
+            <button class="botao">Selecionar</button>
+        </div>
+
+        <div class="impressoras">
+            <img src="./img/impressora.png" />
+            <div class="nome">GOI_EXP_01
+                <br> Expedição Goiania</div>
+            <button class="botao">Selecionar</button>
+        </div>
+
+        <div class="impressoras">
+            <img src="./img/impressora.png" />
+            <div class="nome">FLN_ADM_01
+                <br> ADM São José </div>
+            <button class="botao">Selecionar</button>
+        </div>
+
+        <div class="impressoras">
+            <img src="./img/impressora.png" />
+            <div class="nome">IMP_RIB_ADM
+                <br> ADM Ribeirão Preto </div>
+            <button class="botao">Selecionar</button>
+        </div>
+
+        <div class="impressoras">
+            <img src="./img/impressora.png" />
+            <div class="nome">IMP_RIB_LOG
+                <br> Logistica Ribeirão Preto </div>
+            <button class="botao">Selecionar</button>
+        </div>
+
+        <div class="impressoras">
+            <img src="./img/impressora.png" />
+            <div class="nome">CBA_ADM_01
+                <br> ADM Curitiba </div>
+            <button class="botao">Selecionar</button>
+        </div>
+
+        <div class="impressoras">
+            <img src="./img/impressora.png" />
+            <div class="nome">CBA_LOG_01
+                <br> Logistica Curitiba </div>
+            <button class="botao">Selecionar</button>
+        </div>
     </main>
 </body>
 
