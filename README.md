@@ -7,4 +7,4 @@ Atualmente, a formatação de código está concluída e estamos na fase de impl
 ---
 
 **Status do Projeto:** Em desenvolvimento  
-**Tecnologias Utilizadas:** HTML, CSS, JavaScript, (e outras tecnologias utilizadas, se desejar especificar)
+**Tecnologias Utilizadas:** HTML, CSS, JavaScript, (e outras tecnologias)
